@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
 ActiveRecord::Schema.define(version: 20160723221505) do
 
   create_table "checklists", force: :cascade do |t|
