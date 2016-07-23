@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160723202602) do
+ActiveRecord::Schema.define(version: 20160723210439) do
+
+  create_table "checklists", force: :cascade do |t|
+    t.boolean  "design_fix"
+    t.boolean  "lunch1"
+    t.boolean  "intro"
+    t.boolean  "scrum"
+    t.boolean  "bug_fix"
+    t.boolean  "googling"
+    t.boolean  "ping_pong"
+    t.boolean  "lunch2"
+    t.boolean  "hackathon"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
