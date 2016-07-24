@@ -21,13 +21,28 @@ VIEWS
 	
 4. Start your day
 
-				DAY 1            	 DAY 2
+DAY 1            	            DAY 2
 
 Desk:		Design Fix			Fix bug with paired programming 
 								and googling/Stackoverflow
+
 Break: 		 					Play ping pong
+
 Lunch:		Lunch with team		Lunch with Mentor
+
 Calendar: 	Holds todo list		Holds todo list	
+
 Meeting     Scrum meeting 		Hackathon 
 Room: 
 
+
+Hackathon
+- learn classes infopage
+	khan 
+	code academy
+	treehouse
+- emerging groups 
+	code2040
+	girls code
+	conferences 
+	blue 1647
