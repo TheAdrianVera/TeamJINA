@@ -4,4 +4,7 @@ class WelcomeController < ApplicationController
 
   def video
   end 
+
+  def about
+  end 
 end

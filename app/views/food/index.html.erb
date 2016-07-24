@@ -1,12 +1,23 @@
 
-<body class= "welcome">
+
+
+<body class= "food1">
 	<div class="container">
 	    <div class="row">
 	        <div class="col-md-12">
 	        	<div>
 		            <div class="wrap">
 
-		                <p class="form-title">FOOD </p> 
+		                <p class="smaller" style="font-size:20px;">Perks</p>
+		                <div class="container">
+					    <div class="row">
+					        <div class=" panel-default ">
+					            <div >
+					              <!--  <p class="form-title-welcome">What most schools don't teach</p> -->
+
+					        </div>
+					    </div>
+					        
 
 		            </div>
 			    </div>        
@@ -15,3 +26,85 @@
 	    </div>
 	</div>
 </body>
+<div align="middle" class="team1"class="row">
+
+    <div align="middle"  class="col-lg-12">
+        <h1 class="page-header"></h1>
+    
+           <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail"  data-image-id="" data-toggle="modal" data-title="Snacks" data-caption="Majority of tech companies have snacks for their employees that keep their engineers full and happy :)" data-image="../snacks.jpg" data-target="#image-gallery">
+                <img class="img-responsive" src="../snacks.jpg" alt="Short alt text">
+            </a>
+             <p class="smaller" style="font-size:20px;">Snacks</p>
+
+        </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" data-image-id="" data-toggle="modal" data-title="Games" data-caption="To keep the creative juices flowing engineers have access to table games as well as board games. Everyone needs a break once in a while :)" data-image="../games.gif" data-target="#image-gallery">
+                <img class="img-responsive" src="../games.gif" alt="A alt text">
+            </a>
+                        <p class="smaller" style="font-size:20px;">Games</p>
+
+        </div>
+           
+              <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" data-image-id="" data-toggle="modal" data-title="Technology" data-caption="Because engineers need the latest technology to make great products most tech companies provide each of their employees with a laptop :D" data-image="../tech.jpg" data-target="#image-gallery">
+                <img class="img-responsive" src="../tech.jpg" alt="Short alt text">
+            </a>
+            <p class="smaller" style="font-size:20px;">Technology</p>
+
+        </div>
+
+         <!-- <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="#" data-image-id="" data-toggle="Your team is responsible for creating products in the company. These are the people with who you pair program to create amazing projects. They are your support when you are stuck in your code." data-image="../teamforjani.jpg" data-target="#image-gallery" >
+                <img class="img-responsive" src="../teamforjani.jpg" alt="Another alt text">
+            </a>
+        </div> -->
+</div>
+
+
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="image-gallery-title"></h4>
+            </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-responsive" src="">
+            </div>
+            <div class="modal-footer">
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
+                </div>
+
+                <div class="col-md-8 text-justify" id="image-gallery-caption">
+                    Refresh page
+                </div>
+
+                <div class="col-md-2">
+                    <button type="button" id="show-next-image" class="btn btn-default">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- BUTOON PART -->
+
+<div class="container">
+    <div class="row">
+        <div class=" panel-default modal-dialog">
+            <div >
+                <button color=blue class="btn btn-info btn-lg btn-block"  > <%= link_to "Continue", explore_path %> </button>
+           
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+

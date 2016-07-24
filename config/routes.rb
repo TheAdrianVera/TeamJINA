@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'desk' => 'desk#index', as: 'desk'
   get 'food' => 'food#index', as: 'food'
   get 'calendar' => 'calendar#index', as: 'calendar'
+  get 'about' => 'welcome#about', as: 'about'
 
 
 
