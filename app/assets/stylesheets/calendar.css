@@ -1,0 +1,69 @@
+.test{
+  background-color: #5E5E5E;
+  border-bottom: none;
+  height: 25vh;
+}
+
+.test2{
+  background-color: #5E5E5E;
+  border-bottom: none;
+  border-left: none;
+  height: 25vh;
+}
+
+.test3{
+  background-color: #B3B3B3;
+  border-style: solid;
+  border-bottom: none;
+  height: 25vh;
+}
+
+.test4{
+  background-color: #DCDCDC;
+  border-style: solid;
+  border-left: none;
+  border-bottom:none;
+  height: 25vh;
+}
+
+.test5{
+  background-color: #B3B3B3;
+  border-style: solid;
+  height: 25vh;
+}
+
+.test6{
+  background-color: #DCDCDC;
+  border-style: solid;
+  
+  border-left:none;
+  height: 25vh;
+}
+
+.test7{
+  background-color: #B3B3B3;
+  border-style: solid;
+  border-top: none;
+  height: 25vh;
+}
+
+.test8{
+  background-color: #DCDCDC;
+  border-style: solid;
+  border-left:none;
+  border-top:none;
+  height: 25vh;
+}
+
+.time{
+  color: #FFF;
+  display: block;
+  text-align: center;
+  padding-top: 20%;
+  font-size:2em;
+}
+
+#orbs{
+  display:block;
+}
+
