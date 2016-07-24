@@ -17,6 +17,11 @@ body.welcome {
   z-index: 99;
 }
 
+a {
+  color: white;
+  background-color: white;
+}
+
 p.form-title {
   font-family: 'Open Sans' , sans-serif;
   font-size: 20px;
