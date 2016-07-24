@@ -12,10 +12,11 @@ Rails.application.routes.draw do
 
   get 'map' => 'map#index'
   get 'video' => 'welcome#video' , as: 'video'
-  get 'team' => 'map#team'
-  get 'explore' => 'map#explore', as: 'explore'
-  get 'desk' => 'map#desk', as: 'desk'
-  get 'food' => 'map#food', as: 'food'
+  get 'team' => 'team#index'
+  get 'explore' => 'explore#index', as: 'explore'
+  get 'desk' => 'desk#index', as: 'desk'
+  get 'food' => 'food#index', as: 'food'
+  get 'calendar' => 'calendar#index', as: 'calendar'
 
 
 

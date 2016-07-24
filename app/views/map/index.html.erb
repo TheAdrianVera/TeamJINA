@@ -6,29 +6,37 @@
 	            <div class="wrap">
 	                <p class="form-title">Map Page</p>
 	                
-	                <div class="desk">
-	                	<i class="fa fa-laptop fa-5x" aria-hidden="true"></i> <%= link_to "Desk", desk_path %> 
-	                </div>
+	                <a href="<%= desk_path %>">
+	                	<div class="desk">
+		                	<i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+		                </div>
+	                </a>
 
-	                <div class="team">
-	                	<i class="fa fa-users fa-5x" aria-hidden="true"></i>
-	                	 <%= link_to "Team", team_path %> 
-	                </div>
+	                <a href="<%= team_path %>">
+		                <div class="team">
+		                	<i class="fa fa-users fa-5x" aria-hidden="true"></i>
+		                </div>
+		            </a>
 
-	                <div class="food">
-	                	<i class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
-	                	 <%= link_to "Food", food_path %> 
-	                </div>
+		            <a href="<%= food_path %>">
+		                <div class="food">
+		                	<i class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
+		                </div>
+		            </a>
 
-	                <div class="calendar">
-	                	<i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
-	                </div>
 
-	                <div class="explore">
-	                	<i class="fa fa-globe fa-5x" aria-hidden="true"></i>
-	                	<%= link_to "Explore", explore_path %>
+		            <a href="<%= calendar_path %>">
+		                <div class="calendar">
+		                	<i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
+		                </div>
+		            </a>
+	                
 
-	                </div>
+	                <a href="<%= explore_path %>">
+		                <div class="explore">
+		                	<i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+		                </div>
+	                </a>
 
 	            </div>
 				
