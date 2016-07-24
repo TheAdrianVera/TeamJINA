@@ -1,5 +1,5 @@
 /*@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);*/
-body.map {
+.map {
   background: url('../map_2.jpeg') fixed;
   background-size: cover;
   padding: 0;
@@ -21,8 +21,88 @@ p.form-title {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   margin-top: 5%;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+.desk {
+  background-color: #0F0;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.desk p {
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+  }
+
+.team {
+  background-color: #FF0;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-left: 60%;
+  margin-top: 7%;
+  position: absolute;
+}
+
+.team p {
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+}
+
+.food {
+  background-color: #0FF;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 25%;
+  position: absolute;
+}
+
+.food p{
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+}
+
+.calendar {
+  background-color: #F0F;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 25%;
+  position: absolute;
+}
+
+.calendar p{
+  color: #000;
+  text-align: center;
+  line-height: 100px;
+}
+
+.explore {
+  background-color: #0FF;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-left: 75%;
+  margin-top: 25%;
+  position: absolute;
+}
+
+.explore p{
+  color: #000;
+  text-align: center;
+  line-height: 100px;
 }
