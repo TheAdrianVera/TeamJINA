@@ -1,0 +1,28 @@
+div.component {
+    height: 100vh;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+#first {
+    display: table;
+    overflow: hidden;
+    background: black;
+    color: white;
+}
+
+#first #code {
+    font-family: monospace;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#second {
+    background: white;
+    color: black;
+    font-size: 3em;
+}
+
+input {
+    background: black;
+}

@@ -1,11 +1,12 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-
-body.welcome {
-  background: url('../studentscoding.jpeg') fixed;
+body.explore1 {
+  background: url('../hackathon1.png') fixed;
   background-size: cover;
   padding: 0;
-  margin: 0;
+  margin: 5%;
 }
+
+
 
 .wrap {
   width: 100%;
@@ -17,18 +18,24 @@ body.welcome {
   z-index: 99;
 }
 
-a {
-  color: white;
-  background-color: white;
-}
-
-p.form-title {
+p.exploreonly{
   font-family: 'Open Sans' , sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 15%;
+  margin-top: 10%;
+
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+p.smaller{
+  font-family: 'Open Sans' , sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 1%;
 
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -40,12 +47,16 @@ p.form-title {
 
 }
 
+.explore1:hover{
+  opacity: 1.5;
+}
+
 
 /*VIDEO CODE*/
 
 .video-section .pattern-overlay {
 padding: 70px 0 32px;
-min-height: 550px;
+min-height: 550px; 
 background-color: rgba(71, 71, 71, 0.59);
 /* Incase of overlay problems just increase the min-height*/
 }
@@ -79,7 +90,7 @@ margin: 0px auto 15px;
 }
 
 /*BUTTON CODE*/
-.btn {
+/*.btn {
     border-radius: 0;
     border: 0;
     border-bottom: 4px solid #CCCCCC;
@@ -98,9 +109,9 @@ margin: 0px auto 15px;
     background-color: #f9f9f9;
     border-color: #cacaca;
     text-shadow: 1px 1px 0 #f5f5f5;
-}
+}*/
 
-.btn-default:hover, .btn-default:focus {
+/*.btn-default:hover, .btn-default:focus {
     background-color: #f4f4f4;
     border-color: #bebebe;
 }
@@ -131,3 +142,7 @@ margin: 0px auto 15px;
     background-color: #f5a620;
     border-color: #cd9034;
 }
+
+
+
+*/

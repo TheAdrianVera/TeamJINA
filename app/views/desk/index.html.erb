@@ -1,17 +1,23 @@
-
-<body class= "welcome">
-	<div class="container">
-	    <div class="row">
-	        <div class="col-md-12">
-	        	<div>
-		            <div class="wrap">
-
-		                <p class="form-title">DESK </p> 
-
-		            </div>
-			    </div>        
-	        </div>
-				
-	    </div>
-	</div>
+<body class= "welcome" ng-app ng-init="text=YAAAS">
+    <div class="row">
+        <div id="first" class="col-xs-6 component">
+            <h1>Type below to see what happens!</h1>
+            <br><br><br>
+            <p><span id="code">
+                 &ltdiv style="color: yellow; background: blue"&gt <br>
+                 &nbsp&nbsp&ltp&gt <br>
+                 &nbsp&nbsp&nbsp&nbsp <input ng-model="text" type="text" placeholder="type here!"> <br>
+                 &nbsp&nbsp&lt/p&gt <br>
+                 &lt/div&gt
+             </span></p>
+        </div>
+        <div id="second" class="col-xs-6 component">
+            <div style="background: blue">
+                <p style="color: yellow">
+                    {{text}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 </body>
